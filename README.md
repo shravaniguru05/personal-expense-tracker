@@ -302,3 +302,4 @@ Follow these steps to create a GitHub repository and push your project:
    - Set environment variable `VITE_API_URL` to your live backend URL.
 3. **Database Migration to PostgreSQL (Optional)**:
    - When deploying at scale, simply change the `DATABASE_URL` environment variable from `sqlite:///...` to your managed PostgreSQL connection string (`postgresql://user:pass@host:5432/dbname`). SQLAlchemy will handle the rest!
+

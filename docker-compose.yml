@@ -50,3 +50,4 @@ volumes:
 networks:
   expense-network:
     driver: bridge
+

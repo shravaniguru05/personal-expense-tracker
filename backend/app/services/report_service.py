@@ -404,3 +404,4 @@ def export_transactions_csv(db: Session, start_date: Optional[date] = None, end_
         ])
 
     return output.getvalue()
+

@@ -63,3 +63,4 @@ def test_budget_warning_and_exceeded_thresholds(client):
     overall2 = next(b for b in get_res2.json() if b["category_id"] is None)
     assert overall2["percentage_used"] == 105.0
     assert overall2["status"] == "exceeded"
+

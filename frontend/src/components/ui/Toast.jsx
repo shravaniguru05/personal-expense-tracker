@@ -30,3 +30,4 @@ export default function Toast({ message, type = 'success', onClose, duration = 4
     </div>
   );
 }
+

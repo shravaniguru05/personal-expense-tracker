@@ -79,3 +79,4 @@ def delete_budget(budget_id: int, db: Session = Depends(get_db)):
     db.delete(budget)
     db.commit()
     return None
+

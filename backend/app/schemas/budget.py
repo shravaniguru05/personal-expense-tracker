@@ -51,3 +51,4 @@ class BudgetStatus(BaseModel):
     remaining_amount: Decimal
     percentage_used: float
     status: Literal["normal", "warning", "exceeded"]  # warning >= 80%, exceeded >= 100%
+

@@ -54,3 +54,4 @@ def test_seed_demo_data(client):
     tx_res = client.get("/api/transactions")
     assert tx_res.status_code == 200
     assert tx_res.json()["total"] > 0
+

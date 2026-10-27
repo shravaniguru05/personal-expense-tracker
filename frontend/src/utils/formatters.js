@@ -70,3 +70,4 @@ export function formatPercentage(val) {
   if (val === undefined || val === null || isNaN(Number(val))) return '0%';
   return `${Number(val).toFixed(1)}%`;
 }
+

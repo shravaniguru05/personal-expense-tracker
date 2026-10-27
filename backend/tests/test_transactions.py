@@ -98,3 +98,4 @@ def test_export_transactions_csv(client):
     assert "text/csv" in res.headers["content-type"]
     assert "Freelance payment" in res.text
     assert "Transaction ID,Date,Description" in res.text
+

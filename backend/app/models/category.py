@@ -17,3 +17,4 @@ class Category(Base):
 
     transactions = relationship("Transaction", back_populates="category", cascade="all, delete-orphan")
     budgets = relationship("Budget", back_populates="category", cascade="all, delete-orphan")
+

@@ -35,3 +35,4 @@ describe('Formatters Utility', () => {
     expect(formatPercentage(null)).toBe('0%');
   });
 });
+

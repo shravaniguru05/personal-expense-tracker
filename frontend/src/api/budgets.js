@@ -19,3 +19,4 @@ export const updateBudget = async (id, data) => {
 export const deleteBudget = async (id) => {
   await apiClient.delete(`/api/budgets/${id}`);
 };
+

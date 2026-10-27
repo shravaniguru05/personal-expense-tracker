@@ -118,3 +118,4 @@ def seed_demo_data(db: Session):
 
     db.commit()
     return {"message": "Demo data populated successfully."}
+

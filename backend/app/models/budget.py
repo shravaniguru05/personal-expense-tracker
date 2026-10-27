@@ -20,3 +20,4 @@ class Budget(Base):
     __table_args__ = (
         UniqueConstraint("month", "category_id", name="uq_budget_month_category"),
     )
+

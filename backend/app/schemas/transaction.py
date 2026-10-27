@@ -60,3 +60,4 @@ class PaginatedTransactions(BaseModel):
     page_size: int
     total_pages: int
     items: list[TransactionResponse]
+

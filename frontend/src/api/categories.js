@@ -19,3 +19,4 @@ export const updateCategory = async (id, data) => {
 export const deleteCategory = async (id) => {
   await apiClient.delete(`/api/categories/${id}`);
 };
+

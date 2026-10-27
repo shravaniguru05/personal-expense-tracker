@@ -21,3 +21,4 @@ class Transaction(Base):
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
 
     category = relationship("Category", back_populates="transactions")
+

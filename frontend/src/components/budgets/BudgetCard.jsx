@@ -149,3 +149,4 @@ export default function BudgetCard({ budget, onEdit, onRefresh, showToast }) {
     </div>
   );
 }
+

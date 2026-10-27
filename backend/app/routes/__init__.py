@@ -11,3 +11,4 @@ __all__ = [
     "dashboard_router",
     "reports_router",
 ]
+

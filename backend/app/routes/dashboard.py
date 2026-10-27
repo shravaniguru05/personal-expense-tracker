@@ -37,3 +37,4 @@ def reset_data(db: Session = Depends(get_db)):
     db.commit()
     init_default_categories(db)
     return {"message": "All transactions and custom data cleared successfully."}
+

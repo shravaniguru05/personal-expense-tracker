@@ -51,3 +51,4 @@ export function getCategoryIcon(iconName, props = {}) {
 }
 
 export const AVAILABLE_ICONS = Object.keys(iconMap);
+

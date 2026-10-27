@@ -46,3 +46,4 @@ def test_delete_category(client):
     res = client.get(f"/api/categories")
     names = [c["name"] for c in res.json()]
     assert "Test Cat" not in names
+

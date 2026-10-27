@@ -16,3 +16,4 @@ def get_analytics(
     db: Session = Depends(get_db),
 ):
     return get_reports_data(db, start_date=start_date, end_date=end_date)
+

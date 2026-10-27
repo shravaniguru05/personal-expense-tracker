@@ -32,3 +32,4 @@ export const exportTransactionsCSV = (startDate, endDate) => {
   const url = `${baseURL}/api/transactions/export/csv?${params.toString()}`;
   window.open(url, '_blank');
 };
+

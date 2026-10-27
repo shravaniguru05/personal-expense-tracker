@@ -61,3 +61,4 @@ class ReportsData(BaseModel):
     periodic_summary: List[PeriodicSummary]
     income_vs_expense: List[MonthlyBarItem]
     daily_trends: List[TrendPoint]
+
